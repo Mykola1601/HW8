@@ -49,7 +49,7 @@ if __name__ == "__main__":
     users = [
         {"name": "Jan Koum", "birthday": datetime(1976, 9, 17).date()},
         {"name": "Jana Koza", "birthday": datetime(1028, 9, 12).date()},
-        {"name": "NIK", "birthday": datetime(1020, 9, 19).date()},
+        # {"name": "NIK", "birthday": datetime(1020, 9, 19).date()},
     ]
 
     result = get_birthdays_per_week(users)
